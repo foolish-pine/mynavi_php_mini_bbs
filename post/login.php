@@ -1,5 +1,5 @@
 <?php
-require('dbconnect.php');
+require('../dbconnect.php');
 session_start();
 
 if ($_COOKIE['email'] != '') {
@@ -47,7 +47,7 @@ if (!empty($_POST)) {
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>ひとこと掲示板</title>
 
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="../style.css" />
 </head>
 
 <body>
