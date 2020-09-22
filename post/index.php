@@ -73,6 +73,7 @@ if (isset($_REQUEST['res'])) {
     <h1>ひとこと掲示板</h1>
   </div>
   <div id="content">
+		<div style="text-align: right;"><a href="logout.php">ログアウト</a></div>
 		<form action="" method="post">
 		<dl>
 			<dt><?php echo htmlspecialchars($member['name']); ?>さん、メッセージをどうぞ</dt>
